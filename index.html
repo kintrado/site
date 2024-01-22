@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kintrado</title>
+    <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+  
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            color: #ffffff;
+            background-color: #116a3b;
+            font-family: 'Space Grotesk', sans-serif;
+
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: white;
+            text-decoration: none;
+        }
+        .navbar {
+            background-color: #116a3b;
+            margin-bottom: 0;
+        }
+        .navbar-brand img{
+            width: 10rem;
+        }
+        .hero-section {
+            background-color: #116a3b;
+            color: #ffffff;
+            padding: 50px 0;
+            height: calc(100% - 140px); /* Adjusted for the height of navbar and footer */
+        }
+        .footer {
+            background-color: #116a3b;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        #hero-text{
+            margin-bottom: 2rem
+        }
+        
+        
+
+        @media (min-width: 992px) { 
+            h1{
+                font-size: 4rem;
+            }
+            #hero-text h1{
+                margin-bottom: 2rem;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Section -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="images/navlogo.png" alt=""></a>
+        
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6 " id="hero-text">
+                    <h1>Revolutionising Agritech for Sustainable and Efficient Farming</h1>
+                    <button class="btn btn-light">Coming Soon</button>
+                </div>
+                <div class="col-md-6">
+                    <!-- Place your hero image here -->
+                    <img src="images/hero.png" alt="Hero Image" class="img-fluid"> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div>&copy; 2024 Kintrado (A subsidiary of <a href="https://nuevicsutech.com.ng">Nuevicsu</a>). All rights reserved.</div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
